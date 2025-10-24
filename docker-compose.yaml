@@ -37,7 +37,7 @@ services:
 
 
   result:
-    image: azhary/result
+    image: azhary22/result
     build: ./result
     ports:
       - 5001:80
