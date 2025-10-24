@@ -37,7 +37,7 @@ services:
 
 
   result:
-    image: username/result
+    image: azhary/result
     build: ./result
     ports:
       - 5001:80
@@ -47,7 +47,7 @@ services:
       - micro-net
 
   worker:
-    image: username/worker
+    image: azhary22/worker
     build: ./worker
     depends_on:
       - redis
